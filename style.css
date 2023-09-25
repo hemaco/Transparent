@@ -27,20 +27,20 @@
 }
 
 .img{
-    padding-bottom: 40px;
-    width: 80px;
-    height: 80px;
+    padding-bottom: 20px;
+    opacity: 70%;
 }
 .email{
     background:transparent;
     color: #ffffff;
     width: 230px;
-    height: 35px;
+    height: 40px;
     text-align: left;
     border-bottom-color: white;
     border-top: 0;
     border-right: 0;
     border-left: 0;
+    font-size: 16px;
 }
 
 .password{
@@ -53,6 +53,8 @@
     border-top: 0;
     border-right: 0;
     border-left: 0;
+    font-size: 16px;
+    padding-top: 20px;
 }
 input::placeholder {
     color: white;
@@ -60,12 +62,12 @@ input::placeholder {
 
 .check{
     color: #bc99be;
-    padding-bottom: 30px;
     margin-top: 30px;
-    font-size: small;
+    font-size: 14px;
+    display: inline-block;
+    padding-bottom: 20px;
+    
 }
-
-
 /* link que ainda não foi acessado */
 a {
     text-decoration: none;
@@ -94,9 +96,10 @@ i {
     background: linear-gradient(85DEG,#490934,#3f3692, #807184);
     border-radius: 15%;
     text-align: center;
-    color: #cecafb;
-    font-size: 30px;
-    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 800;
+    
 }
 
 button{
@@ -105,6 +108,7 @@ button{
     width: 230px;
     height: 35px;
     text-align: center;
+    
     
 }
 
