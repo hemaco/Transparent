@@ -6,7 +6,7 @@
 }
 
 .container{
-    background: linear-gradient(30DEG,#512b3a,#241f47, #807184);
+    background: linear-gradient(33DEG,#b0a7b3,#241f47, #512b3a);
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -15,28 +15,107 @@
 
 .login-container{
     width: 450px;
-    height: 450px;
-    background: #4d284c ;
+    height: 550px;
+    background: linear-gradient(75DEG,#b0a7b3,#512b3a,#241f47 );
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    opacity: 60%;
+    border-radius: 10%;
 }
 
+.img{
+    padding-bottom: 40px;
+    width: 80px;
+    height: 80px;
+}
 .email{
     background:transparent;
-    color: #eeeeee;
+    color: #ffffff;
     width: 230px;
     height: 35px;
-    border: none;
-    text-align: center;
+    text-align: left;
+    border-bottom-color: white;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
 }
 
 .password{
     background:transparent;
-    color: #eeeeee;
+    color: #ffffff;
     width: 230px;
     height: 35px;
-    border: none;
-    text-align: center;
+    text-align: left;
+    border-bottom-color: white;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
 }
+input::placeholder {
+    color: white;
+  }
+
+.check{
+    color: #bc99be;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.link{
+
+}
+
+/* link que ainda não foi acessado */
+a {
+    text-decoration: none;
+    color: #ffffff;
+ }
+ /* link que foi visitado */
+ a:visited {
+     color: white;
+ }
+ /* quando o ponteiro do mouse passa no link */
+ a:hover {
+     color: #999;
+ }
+ /* quando o link for selecionado */
+ a:active {
+     color: #333;
+ }
+
+i {
+    color: #dfcfe1;
+}
+
+.login{
+    width: 300px;
+    height: 50px;
+    background: linear-gradient(85DEG,#490934,#3f3692, #807184);
+    border-radius: 15%;
+    text-align: center;
+    color: #cecafb;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+button{
+    background:transparent;
+    color: #ffffff;
+    width: 230px;
+    height: 35px;
+    text-align: center;
+    
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+    .button:focus {
+     outline: thin dotted;
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: 0px;
+    }
