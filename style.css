@@ -6,7 +6,7 @@
 }
 
 .container{
-    background: linear-gradient(33DEG,#b0a7b3,#241f47, #512b3a);
+    background: linear-gradient(357deg, rgba(151,162,210,1) 1%, rgba(107,105,149,1) 9%, rgba(40,18,56,1) 34%, rgba(40,18,56,1) 57%, rgba(80,24,37,1) 81%);
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -16,13 +16,14 @@
 .login-container{
     width: 450px;
     height: 550px;
-    background: linear-gradient(75DEG,#b0a7b3,#512b3a,#241f47 );
+    background:rgba(255, 255, 255, 0.13);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    opacity: 60%;
+    opacity: 0.5;
     border-radius: 10%;
+
 }
 
 .img{
@@ -61,11 +62,9 @@ input::placeholder {
     color: #bc99be;
     padding-bottom: 30px;
     margin-top: 30px;
+    font-size: small;
 }
 
-.link{
-
-}
 
 /* link que ainda não foi acessado */
 a {
