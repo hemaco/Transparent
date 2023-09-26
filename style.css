@@ -60,14 +60,76 @@ input::placeholder {
     color: white;
   }
 
+.checke {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  /* Esconder o checkbox padrão */
+.checke input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Criar o checkbox customizado */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #eee;
+    border-radius: 2px;
+  }
+
+  /* Adicionar uma cor de fundo cinza ao passar o mouse */
+.checke:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+.coluna{
+    display:block;
+    justify-content:space-between;
+}
+
+.checke input:checked ~ .checkmark {
+    background-color: #000000;
+  }
+
 .check{
     color: #bc99be;
     margin-top: 30px;
-    font-size: 14px;
+    font-size: 6px;
     display: inline-block;
     padding-bottom: 20px;
     
 }
+/* Criar o ícone de check, escondido quando não estiver selecionado */
+.checke .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 5px;
+    top: 3px;
+    width: 4px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  /* Exibir o ícone quando selecionado */
+.checke input:checked ~ .checkmark:after {
+    display: block;
+  }
 /* link que ainda não foi acessado */
 a {
     text-decoration: none;
@@ -89,6 +151,7 @@ a {
 i {
     color: #dfcfe1;
 }
+
 
 .login{
     width: 300px;

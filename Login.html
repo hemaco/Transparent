@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <div class="container">
         <div class="login-container">
@@ -19,26 +21,31 @@
                 <input type="email" name="email" id="email" class="email" placeholder="Email ID">
             </div>
             <div>
-                <i class='bx bx-lock' ></i>
+                <i class='bx bx-lock'></i>
                 <input type="password" name="password" id="password" class="password" placeholder="Password">
             </div>
-            
-            <div class="check">
-                <input type="checkbox" name="chk" id="chk">
-                <label for="chk">Remember me</label>
+            <div class="coluna">
+                <div class="check">
+                <label class="checke">Remember me
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
                 
-
-                <a href="#">Forgot password?</a>
+                <div>
+                    <a href="#">Forgot password?</a>
+                </div>
 
             </div>
             <div>
                 <input type="button" name="login" id="login" value="Login" class="login">
 
             </div>
-            
+
         </div>
 
 
     </div>
 </body>
+
 </html>
