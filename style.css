@@ -62,6 +62,7 @@
   font-size: 16px;
   padding-top: 20px;
 }
+
 input::placeholder {
   color: white;
 }
@@ -73,7 +74,7 @@ input::placeholder {
 }
 
 .check {
-  color: #bc99be;
+  color: #ffffff;
   margin-top: 30px;
   font-size: 14px;
   padding-bottom: 20px;
